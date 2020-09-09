@@ -7,9 +7,9 @@ ERROR: test_square (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_square
     output_exo = list(map(exercice.square, self.numbers))
-  File "/home/runner/work/c01_ch3_exercice1-francois-tourigny/c01_ch3_exercice1-francois-tourigny/exercice.py", line 11, in square
-    sqared = math.pow(number)
-TypeError: pow expected 2 arguments, got 1
+  File "/home/runner/work/c01_ch3_exercice1-francois-tourigny/c01_ch3_exercice1-francois-tourigny/exercice.py", line 12, in square
+    return squared
+NameError: name 'squared' is not defined
 
 ----------------------------------------------------------------------
 Ran 2 tests in 0.001s
