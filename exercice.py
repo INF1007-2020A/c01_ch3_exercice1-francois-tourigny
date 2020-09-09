@@ -8,7 +8,7 @@ def square_root(number: int) -> float:
 
 
 def square(number: int) -> int:
-    sqared = math.pow(number,2)
+    squared = math.pow(number,2)
     return squared
 
 
